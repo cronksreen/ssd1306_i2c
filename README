@@ -7,6 +7,8 @@ Tested on Raspberry Pi 2 with 0.96 Yellow/Blue OLED
 
 Required WiringPi http://wiringpi.com/ and WiringPi i2c lib. 
 
+** updating to enable some default Arduino library behaviors **
+
 How to run demo:
 gcc demo.c ssd1306_i2c.c -lwiringPi -o demo
 
